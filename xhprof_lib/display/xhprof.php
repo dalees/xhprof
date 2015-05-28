@@ -1431,7 +1431,8 @@ function displayXHProfReport($xhprof_runs_impl, $url_params, $source,
                          $run2);
 
   } else {
-    echo "No XHProf runs specified in the URL.";
+    echo "No XHProf runs specified in the URL.<br />";
+    echo "Add encoded runs using the <a href='addrun.php'>addrun.php script</a>.";
     if (method_exists($xhprof_runs_impl, 'list_runs')) {
       $xhprof_runs_impl->list_runs();
     }

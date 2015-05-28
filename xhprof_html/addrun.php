@@ -42,6 +42,7 @@ function print_form() {
 	echo "<html><head><title>Save xhprof run</title></head>\n";
 	echo "<body>";
 	echo "<h2>Submit new xhprof data</h2>\n";
+	echo "<p>Documentation: <a href='https://wiki.wgtn.cat-it.co.nz/wiki/Xhprof#Site_independent'>Catalyst Wiki</a></p>\n";
 	echo "<form method='post'>\n";
 	echo "Namespace: <input name='namespace' type='text' value='xhprof_foo' /><br />\n";
 	echo "<textarea row=4 cols=50 name='data'></textarea>";
